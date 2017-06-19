@@ -1,7 +1,7 @@
 {
   "name": "redux-simple-starter",
   "version": "1.0.0",
-  "description": "Redux web weather App",
+  "description": "Redux web weather Forecast App ",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
