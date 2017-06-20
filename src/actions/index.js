@@ -7,6 +7,7 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 
 export function fetchWeather(city) {
     const url = `${WEATHER_URL}&q=${city},us`;
+    // Move the logic of making fetch requests to a separate file
     const request = axios.get(url);
 
     return {
